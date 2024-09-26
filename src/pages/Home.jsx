@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { auth } from "../Components/firebase";
 import { signOut } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import "../Styles/Home.css";
 
 const Home = () => {
